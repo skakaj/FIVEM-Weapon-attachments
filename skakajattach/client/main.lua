@@ -53,11 +53,11 @@ Citizen.CreateThread(function()
 					if GetSelectedPedWeapon(PlayerPedId()) == k then
 						if HasPedGotWeaponComponent(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.suppressor) then
 							TriggerServerEvent('SKAKAJattach:Back', 'suppressor')
-							ESX.ShowNotification("You've removed your weapon tlumiË")
-							RemoveWeaponComponentFromPed(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.clip_extended)
+							ESX.ShowNotification("You've removed your weapon tlumi√®")
+							RemoveWeaponComponentFromPed(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.suppressor)
 						elseif HasPedGotWeaponComponent(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.clip_extended) then
 							TriggerServerEvent('SKAKAJattach:Back', 'clip_extended')
-							ESX.ShowNotification("You've removed your weapon Prodlouûen˝ z·sobnÌk")
+							ESX.ShowNotification("You've removed your weapon Prodlou≈æen√Ω z√°sobn√≠k")
 							RemoveWeaponComponentFromPed(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.clip_extended)
 						elseif HasPedGotWeaponComponent(GetPlayerPed(-1), GetSelectedPedWeapon(PlayerPedId()), v.scope) then
 							TriggerServerEvent('SKAKAJattach:Back', 'scope')
